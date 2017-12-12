@@ -1,0 +1,311 @@
+/*phones:xs, tablets:sm, desktops:md, larger desktops: lg*/
+/*
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+*/
+body{
+	background-image:url('http://cs-server.usc.edu:45678/hw/hw8/images/background.png');
+}
+
+div > table{
+	margin-top:20px;	
+}
+
+md-autocomplete{
+	background-color:white;
+	border:1px solid rgb(214,214,214);
+	border-radius:5px;
+	height:50%;
+}
+
+/*
+.md-autocomplete:focus{
+	border-color:rgb(168,209,242);
+}
+
+.md-autocomplete-empty{
+	background-color:white;
+	border:1px solid red;
+	border-radius:5px;
+	height:50%;
+}*/
+
+
+
+
+th{
+	background-color: rgb(249,249,249);
+}
+
+.ast{
+	color:red;	
+}
+
+
+.btn-search{
+	background-color:rgb(119,150,178);
+	color:white;
+}
+
+.buttondiv{
+	text-align:right;	
+}
+
+
+.caret{
+	left:90%;
+	top:45%;
+	position:absolute;
+}
+
+.deletebtn{
+	margin-left:150px;	
+}
+
+.dropdown > .btn-default{
+	background:transparent;
+	text-align:left;
+	width:100%;
+}
+
+.dropdown > .notready.btn-default{/*notready*/
+	background:rgb(239,239,239);
+	text-align:left;
+}
+
+.errordiv{
+	margin-top:50px;
+}
+
+.favbutton{
+	margin-left:60px;
+}
+
+.fbbutton{
+	margin-left:60px;
+}
+
+.glyphicon-star{/*it's normally black but i gotta make this yellow*/
+	color:rgb(254,213,49);	
+}
+
+.glyphicon-refresh{
+	margin-right:5px;
+}
+
+.glyphicon-refresh-notext{
+	margin-right:0px;
+}
+
+.glyphicon-search{
+	color:white;
+	margin-right:5px;
+}
+
+.glyphicon-mr5{
+	margin-right:5px;
+}
+
+
+.input-label{
+	margin-left:-30px;
+	margin-top:3px;
+}
+
+.jumbotron{
+	margin-top:20px;	
+	background-color:white !important;
+}
+
+.jumbotron h4{
+	margin-top:-20px;
+	margin-bottom:20px;
+}
+
+.mrtop10{
+	margin-top:10px;
+}
+.mrtop50{
+	margin-top:50px;
+}
+
+.newsitem{
+	background-color:rgb(239,239,239);
+	margin-bottom:20px;
+}
+
+
+.orderbylbl{
+	margin-top:5px;	
+	margin-right:-50px;
+}
+
+.panel{
+	margin-top:-30px;
+	margin-left:-30px !important;	
+	width:105%;
+}
+/*come back here and get sliding*/
+
+
+.favoritepanel.ng-hide {
+  opacity: 0;
+}
+
+.favoritepanel.ng-hide-add{
+  /*position:absolute;
+  transition: all linear 1s;
+  transform:translateX(50px);*/
+  
+  
+  /*animation-name:slideOutRight*/
+  /*transform: translate3d(-100%, 0, 0) 3s;
+  visibility: visible;*/
+  
+}
+
+.favoritepanel.ng-hide-remove {
+  /*position:absolute;*/
+  transition: all linear .2s;
+  /*animation-name:slideInRight;
+*/ 
+  transform:translateX(50px);
+ /*transform: translate3d(0, 0, 0) 3s;*/
+}
+
+
+
+.stockpanel.ng-hide {
+  opacity: 0;
+}
+
+.stockpanel.ng-hide-add{
+ /* position:absolute;*/
+  /*transition: all linear .1s;
+  /*animation-name:slideOutLeft;
+  
+  transform:translateX(-50px);*/		
+}
+
+.stockpanel.ng-hide-remove {
+  /*position:absolute;*/
+  transition: all linear .2s;	
+  /*animation-name:slideInLeft;
+  */
+  transform:translateX(-50px);
+}
+
+
+
+/******************/
+
+/*End of animating the sliding*/
+
+.red-border{
+	/*border: 1px solid red;
+	*/
+	border:2px solid red;
+	border-radius:5px;
+	padding:0px;
+}
+
+
+.refreshbtn{
+	margin-left:10px;
+}
+
+.refreshlbl{
+	padding:0px;
+	margin-top:5px;
+	text-align:right;
+}
+
+
+.reg-border{
+
+}
+
+
+/*.selectedtextbar{
+	border-color:rgb(168,209,242);
+}*/
+
+.sortbylbl{
+	margin-top:5px;	
+}
+
+.sortheader{
+	margin-bottom:10px;
+}
+
+.stockmd{
+	background-color:transparent;
+}
+
+.stock-chart-div{
+		
+}
+
+.stock-detail-div{
+		
+}
+
+.stockpercentup{
+	color:green;
+}
+
+.stockpercentdown{
+	color:red;
+}
+
+.stocktable{
+	margin-top:20px;
+}
+
+.upcaret{
+	margin-left:130px;
+	margin-top:8px;
+}
+
+
+/*following three only invisible when we are using desktop*/
+.mobilelist{
+	visibility:hidden;
+}
+.currentstockmobile{
+	visibility:hidden;
+}
+
+.chartmobile{
+	visibility:hidden;
+}
+
+.newsmobile{
+	visibility:hidden;
+}
+
+#no-text{
+	margin-right:0px;
+}
+
